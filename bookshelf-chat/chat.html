@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bookshelf — Chat</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="chat-app">
+
+    <!-- sidebar trái -->
+    <aside class="sidebar">
+
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <i class="ti ti-book-2"></i>The Bookshelf
+        </div>
+      </div>
+
+      <div class="sidebar-search">
+        <div class="sidebar-search-wrap">
+          <i class="ti ti-search"></i>
+          <input type="text" id="searchInput" placeholder="Search conversations...">
+        </div>
+      </div>
+
+      <div class="sidebar-label">Conversations</div>
+
+      <!-- danh sách chat, render bằng JS -->
+      <div class="conversations" id="conversationsList"></div>
+
+      <!-- thanh tài khoản ở dưới cùng -->
+      <div class="user-bar" style="position: relative;">
+        <div class="avatar sm avatar-orange" id="currentUserAvatar"></div>
+        <div class="user-bar-info">
+          <div class="user-bar-name" id="currentUserName">User</div>
+          <div class="user-bar-status">online</div>
+        </div>
+        <div class="user-bar-actions">
+          <button id="settingsBtn" title="Settings">
+            <i class="ti ti-settings"></i>
+          </button>
+        </div>
+
+        <!-- dropdown settings -->
+        <div class="settings-dropdown" id="settingsDropdown">
+          <button id="profileBtn">
+            <i class="ti ti-user"></i>
+            Profile
+          </button>
+          <button class="logout" id="logoutBtn">
+            <i class="ti ti-logout"></i>
+            Log Out
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- phần chat chính -->
+    <main class="chat-main" id="chatMain">
+
+      <!-- màn hình mặc định khi chưa chọn conversation -->
+      <div class="no-chat" id="noChatView">
+        <i class="ti ti-message-circle"></i>
+        <h2>Welcome to The Bookshelf</h2>
+        <p>Select a conversation to start chatting about your favourite books</p>
+      </div>
+
+      <!-- khung chat, ẩn mặc định -->
+      <div id="chatView" style="display: none; flex-direction: column; height: 100%;">
+
+        <div class="chat-header">
+          <div class="avatar sm avatar-orange" id="chatAvatar"></div>
+          <div class="chat-header-info">
+            <div class="chat-header-name" id="chatName">User</div>
+            <div class="chat-header-status" id="chatStatus">
+              <i class="ti ti-point-filled" style="font-size: 12px;"></i>
+              <span>online</span>
+            </div>
+          </div>
+          <div class="chat-header-actions">
+            <button title="Search messages">
+              <i class="ti ti-search"></i>
+            </button>
+            <button title="More options">
+              <i class="ti ti-dots-vertical"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- tin nhắn render bằng JS -->
+        <div class="messages" id="messagesContainer"></div>
+
+        <!-- hiệu ứng đang gõ -->
+        <div class="typing-indicator" id="typingIndicator">
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+        </div>
+
+        <!-- ô nhập tin nhắn -->
+        <div class="input-bar">
+          <div class="input-icons">
+            <button title="Emoji">
+              <i class="ti ti-mood-smile"></i>
+            </button>
+            <button title="Attach image">
+              <i class="ti ti-photo"></i>
+            </button>
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="messageInput"
+              placeholder="Type a message..."
+              autocomplete="off"
+            >
+          </div>
+          <button class="send-btn" id="sendBtn" title="Send">
+            <i class="ti ti-send"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Socket.io client (bỏ comment khi backend xong) -->
+  <!-- <script src="http://localhost:3000/socket.io/socket.io.js"></script> -->
+  <script src="js/config.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bookshelf — Login</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card">
+
+      <div class="login-header">
+        <div class="login-logo">
+          <i class="ti ti-book-2"></i>The Bookshelf
+        </div>
+        <p class="login-subtitle">Your foreign books, one chat away</p>
+      </div>
+
+      <div class="login-form">
+        <div id="loginError" class="login-error">
+          Username or password is incorrect
+        </div>
+
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            autocomplete="username"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+          >
+        </div>
+
+        <button class="login-btn" id="loginBtn">
+          Sign In
+        </button>
+
+        <div class="login-footer">
+          Don't have an account? <a href="#">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

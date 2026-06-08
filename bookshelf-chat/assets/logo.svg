@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>The Bookshelf logo</title>
+
+  <!-- Cabinet frame -->
+  <rect x="20" y="30" width="160" height="150" rx="6" fill="#3C5A5A"/>
+
+  <!-- Cabinet inner background -->
+  <rect x="28" y="38" width="144" height="134" rx="4" fill="#2d4444"/>
+
+  <!-- Shelf 1 (top) -->
+  <rect x="28" y="95" width="144" height="7" fill="#3C5A5A"/>
+
+  <!-- Shelf 2 (bottom) -->
+  <rect x="28" y="148" width="144" height="7" fill="#3C5A5A"/>
+
+  <!-- === Books on top shelf === -->
+
+  <!-- Book 1: tall rust -->
+  <rect x="36" y="50" width="18" height="45" rx="2" fill="#933710"/>
+  <rect x="36" y="50" width="4" height="45" rx="1" fill="#7a2d0d"/>
+  <rect x="38" y="58" width="12" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+  <rect x="38" y="63" width="10" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+
+  <!-- Book 2: khaki short -->
+  <rect x="56" y="62" width="14" height="33" rx="2" fill="#9E9B63"/>
+  <rect x="56" y="62" width="4" height="33" rx="1" fill="#7a7848"/>
+  <rect x="58" y="70" width="8" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+
+  <!-- Book 3: orange tall -->
+  <rect x="72" y="48" width="20" height="47" rx="2" fill="#D99450"/>
+  <rect x="72" y="48" width="4" height="47" rx="1" fill="#b87840"/>
+  <rect x="74" y="58" width="12" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+  <rect x="74" y="63" width="10" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+  <rect x="74" y="68" width="11" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+
+  <!-- Book 4: beige medium -->
+  <rect x="94" y="57" width="15" height="38" rx="2" fill="#E2D6BB"/>
+  <rect x="94" y="57" width="4" height="38" rx="1" fill="#c8bfa5"/>
+  <rect x="96" y="65" width="9" height="2" rx="1" fill="#3C5A5A" opacity="0.3"/>
+  <rect x="96" y="70" width="7" height="2" rx="1" fill="#3C5A5A" opacity="0.3"/>
+
+  <!-- Book 5: rust small -->
+  <rect x="111" y="65" width="13" height="30" rx="2" fill="#933710"/>
+  <rect x="111" y="65" width="3" height="30" rx="1" fill="#7a2d0d"/>
+
+  <!-- Book 6: khaki tall -->
+  <rect x="126" y="50" width="17" height="45" rx="2" fill="#9E9B63"/>
+  <rect x="126" y="50" width="4" height="45" rx="1" fill="#7a7848"/>
+  <rect x="128" y="60" width="10" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+  <rect x="128" y="65" width="8" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+
+  <!-- Book 7: orange short -->
+  <rect x="145" y="68" width="14" height="27" rx="2" fill="#D99450"/>
+  <rect x="145" y="68" width="3" height="27" rx="1" fill="#b87840"/>
+
+  <!-- === Books on bottom shelf === -->
+
+  <!-- Book A: orange tall -->
+  <rect x="36" y="105" width="22" height="43" rx="2" fill="#D99450"/>
+  <rect x="36" y="105" width="5" height="43" rx="1" fill="#b87840"/>
+  <rect x="39" y="115" width="14" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+  <rect x="39" y="120" width="12" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+
+  <!-- Book B: beige medium -->
+  <rect x="60" y="112" width="16" height="36" rx="2" fill="#E2D6BB"/>
+  <rect x="60" y="112" width="4" height="36" rx="1" fill="#c8bfa5"/>
+  <rect x="62" y="120" width="10" height="2" rx="1" fill="#3C5A5A" opacity="0.3"/>
+
+  <!-- Book C: rust tall -->
+  <rect x="78" y="106" width="19" height="42" rx="2" fill="#933710"/>
+  <rect x="78" y="106" width="4" height="42" rx="1" fill="#7a2d0d"/>
+  <rect x="80" y="116" width="12" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+  <rect x="80" y="121" width="10" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+  <rect x="80" y="126" width="11" height="2" rx="1" fill="#E2D6BB" opacity="0.5"/>
+
+  <!-- Book D: khaki short -->
+  <rect x="99" y="118" width="14" height="30" rx="2" fill="#9E9B63"/>
+  <rect x="99" y="118" width="3" height="30" rx="1" fill="#7a7848"/>
+
+  <!-- Book E: orange medium -->
+  <rect x="115" y="110" width="17" height="38" rx="2" fill="#D99450"/>
+  <rect x="115" y="110" width="4" height="38" rx="1" fill="#b87840"/>
+  <rect x="117" y="120" width="11" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+  <rect x="117" y="125" width="9" height="2" rx="1" fill="#3C5A5A" opacity="0.4"/>
+
+  <!-- Book F: rust short -->
+  <rect x="134" y="120" width="13" height="28" rx="2" fill="#933710"/>
+  <rect x="134" y="120" width="3" height="28" rx="1" fill="#7a2d0d"/>
+
+  <!-- Book G: beige tall -->
+  <rect x="149" y="105" width="16" height="43" rx="2" fill="#E2D6BB"/>
+  <rect x="149" y="105" width="4" height="43" rx="1" fill="#c8bfa5"/>
+  <rect x="151" y="115" width="9" height="2" rx="1" fill="#3C5A5A" opacity="0.3"/>
+  <rect x="151" y="120" width="7" height="2" rx="1" fill="#3C5A5A" opacity="0.3"/>
+
+  <!-- Cabinet legs -->
+  <rect x="35" y="178" width="16" height="12" rx="3" fill="#2d4444"/>
+  <rect x="149" y="178" width="16" height="12" rx="3" fill="#2d4444"/>
+
+  <!-- Bottom base -->
+  <rect x="20" y="175" width="160" height="8" rx="3" fill="#3C5A5A"/>
+
+  <!-- Top crown -->
+  <rect x="16" y="26" width="168" height="10" rx="4" fill="#3C5A5A"/>
+  <rect x="20" y="22" width="160" height="10" rx="3" fill="#4a6e6e"/>
+
+  <!-- Small decorative knobs -->
+  <circle cx="97" cy="120" r="4" fill="#D99450"/>
+  <circle cx="97" cy="120" r="2" fill="#933710"/>
+  <circle cx="103" cy="120" r="4" fill="#D99450"/>
+  <circle cx="103" cy="120" r="2" fill="#933710"/>
+</svg>

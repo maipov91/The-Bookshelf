@@ -1,0 +1,13 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies (nếu sau này thêm npm)
+node_modules/
+
+# Environment variables
+.env
+.env.local
